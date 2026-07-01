@@ -1,1 +1,91 @@
-/* code here */
+/*/* 1. ATURAN DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Pakai font standar biar gampang */
+}
+
+body {
+    background-color: #f0f0f0; /* Warna abu-abu terang untuk seluruh background */
+    color: #333333;            /* Warna teks abu-abu gelap */
+}
+
+/* 2. MENU ATAS (HEADER) */
+header {
+    background-color: #1e293b; /* Warna biru tua */
+    color: white;
+    padding: 20px;
+    text-align: center;        /* Semua teks menu di tengah */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;       /* Jarak antara logo dan menu link */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;     /* Menghilangkan garis bawah dari HTML */
+    margin: 0 10px;            /* Memberi jarak antar link menu */
+}
+
+/* 3. BAGIAN UTAMA (HERO) */
+.hero {
+    background-color: white;   /* Background kotak utama warna putih */
+    padding: 50px 20px;        /* Jarak dalam (atas-bawah 50px, kiri-kanan    20px) */
+    text-align: center;        /* Teks otomatis di tengah */
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* TOMBOL SEDERHANA */
+.tombol {
+    background-color: #506e7e; /* Warna tombol biru standar */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;     /* Biar garis bawahnya hilang */
+    display: inline-block;     /* Biar padding (ruang) tombol bekerja dengan baik */
+}
+
+/* 4. BAGIAN KONTEN / FITUR */
+.konten {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.konten h2 {
+    margin-bottom: 20px;
+}
+
+/* Kotak fitur simpel bertumpuk ke bawah */
+.kotak-fitur {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;       /* Jarak antar kotak fitur */
+    text-align: left;          /* Isi teks di dalam kotak rata kiri */
+    border: 1px solid #cccccc; /* Garis kotak tipis warna abu-abu */
+}
+
+.kotak-fitur h3 {
+    color: #506e7e;            /* Warna judul fitur biru */
+    margin-bottom: 5px;
+}
+
+/* 5. BAGIAN BAWAH (FOOTER) */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
